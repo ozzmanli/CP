@@ -1,0 +1,33 @@
+---
+# BasedOnStyle: Google
+IndentWidth: 4
+ColumnLimit: 80
+
+AlignAfterOpenBracket: true
+AlignConsecutiveAssignments: true
+#AlignConsecutiveBitFields: true
+##AlignConsecutiveMacros: true
+AlignEscapedNewlines: true
+
+BreakBeforeBraces: Allman
+AllowAllParametersOfDeclarationOnNextLine: true
+
+BraceWrapping:   
+  AfterClass:      true # false
+  AfterControlStatement: true # false
+  AfterEnum:       true # false
+  AfterFunction:   true # false
+  AfterNamespace:  true # false
+  AfterObjCDeclaration: true # false
+  AfterStruct:     true # false
+  AfterUnion:      true # false
+  AfterExternBlock: true # false
+  BeforeCatch:     true # false
+  BeforeElse:      true # false
+  IndentBraces:    false # true
+  SplitEmptyFunction: true
+  SplitEmptyRecord: true
+  SplitEmptyNamespace: true
+
+# BreakBeforeBraces: Stroustrup
+---
