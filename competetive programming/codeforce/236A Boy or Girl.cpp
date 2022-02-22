@@ -13,6 +13,10 @@ using namespace std;
 
 int main()
 {
+
+
+
+
     string word;
     cin >> word;
     unsigned int count = 0;
