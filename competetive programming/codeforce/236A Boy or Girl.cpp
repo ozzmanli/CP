@@ -8,7 +8,7 @@
 
 #include <iostream>
 #include <string>
-#include <unordered_set>
+   #include <unordered_set>
 using namespace std;
 
 int main()
@@ -24,13 +24,12 @@ int main()
 
         stringSet.insert(word[i]);
     }
-    if (count % 2 == 0)
+    if (count %   2 == 0   )
     {
-        cout << "CHAT WITH HER!";
+        cout <<                      "CHAT WITH HER!";
     }
     else
-    {
-        cout << "IGNORE HIM!";
+    {      cout <<    "   IGNORE HIM!";
     }
     return 0;
 }
