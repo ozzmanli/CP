@@ -12,7 +12,7 @@ in world.
 using namespace std;
 int main()
 {
-    int                        value              = 0;
+    int value              = 0;
     int numberOfTransforms = 0;
     string stringOne, stringTwo;
     getline(cin, stringOne);
@@ -20,40 +20,21 @@ int main()
     for (int i = 0; i < stringOne.length(); i++)
     {
 
-
-
         if (tolower(stringOne[i]) > tolower(stringTwo[i]))
         {
             cout << 1;
 
-
-
             return 0;
-
-
-
-
         }
-
 
         else if (tolower(stringOne[i]) < tolower(stringTwo[i]))
         {
 
-
             cout << (-1);
-
-
-
 
             return 0;
         }
-
-
-
-
     }
-
-
 
     cout << 0;
     return 0;
