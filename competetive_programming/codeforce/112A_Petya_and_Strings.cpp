@@ -20,25 +20,6 @@ int main()
     for (int i = 0; i < stringOne.length(); i++)
     {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         if (tolower(stringOne[i]) > tolower(stringTwo[i]))
         {
             cout << 1;
